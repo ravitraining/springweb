@@ -10,7 +10,7 @@ public class ClientMain {
 	{
 		Resource res = new ClassPathResource("spconfig.xml");
 		BeanFactory factory = new XmlBeanFactory(res);
-
+// This is test for the git account
 		Object o = factory.getBean("id1");
 		WelcomeBean wb = (WelcomeBean)o;
 
